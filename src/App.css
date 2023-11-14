@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+    background-image: url('../public/assets/bg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}

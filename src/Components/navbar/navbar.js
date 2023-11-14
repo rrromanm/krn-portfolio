@@ -1,9 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './navbar.css'
 
 function Navbar() {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+    <nav className='navbar navbar-expand-lg navbar-light'>
       <a className='navbar-brand mx-5 fs-1 fw-bold' href='#'>KRN</a>
       <div className='collapse navbar-collapse' id='navbarNav'>
         <ul className='navbar-nav ms-auto mx-5'>
