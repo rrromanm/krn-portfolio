@@ -1,0 +1,4 @@
+.bg-image{
+    background-image: url('../../../public/assets/bg.jpg');
+    height: 100vh;
+}
