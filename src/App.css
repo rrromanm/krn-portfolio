@@ -37,8 +37,28 @@
   }
 }
 
+@font-face{
+  font-family: montserrat-light;
+  src: url(../public/fonts/Montserrat-Light.ttf);
+}
+
+.mont-light{
+  font-family: montserrat-light;
+}
+
+@font-face{
+  font-family: montserrat-medium;
+  src: url(../public/fonts/Montserrat-Medium.ttf);
+}
+
+.mont-medium{
+  font-family: montserrat-medium;
+}
+
 body{
     background-image: url('../public/assets/bg.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
+
