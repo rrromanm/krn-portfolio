@@ -14,11 +14,11 @@ function home() {
 
         <div className='container'>
           <div className='row'>
-            <div className='col'>
-              <button type="button" className='btn btn-light align-self-end'><a href="#gallery">Gallery</a></button>
+            <div className='col-lg-4 d-flex align-items-end justify-content-end'>
+              <button type="button" className='btn border-dark'><a href="#gallery" className='mont-thin text-decoration-none text-dark'>Gallery</a></button>
             </div>
             <div className='col'>
-              <button type="button" className='btn btn-light'><a href="#contact">Contact me</a></button>
+              <button type="button" className='btn border-dark'><a href="#contact" className='mont-thin text-decoration-none text-dark'>Contact me</a></button>
             </div>
 
           </div>
