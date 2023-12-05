@@ -8,7 +8,7 @@ const About = () => {
         <img
             src={process.env.PUBLIC_URL + '/assets/karina.jpeg'}
             alt='KRN'
-            className='img-fluid'
+            className='img-fluid shadow-lg'
             style={{ maxWidth: '60vh' }} // Adjust the max width as needed
           />
         </div>
