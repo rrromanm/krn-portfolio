@@ -3,7 +3,7 @@ import React from 'react'
 const Gallery = () => {
   return (
     <div className='mt-5 bg-secondary bg-gradient' id='gallery'>
-        <div className='container-fluid'>
+        <div className='container-fluid py-5'>
             <h1>GALLERY</h1>
             <div className='row ms-5 me-5'>
                 <div className='col-md-4'>

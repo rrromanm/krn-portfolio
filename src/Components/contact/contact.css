@@ -1,7 +1,9 @@
 .contact{
-    background-image: linear-gradient(rgba(0,0,0,0.7), #3551b5), url('/public/assets/contact-bg.jpg');
-    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgb(179, 59, 114, 0.75)), url('/public/assets/contact-bg.jpeg');
+    height: 90vh;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .form-control {
