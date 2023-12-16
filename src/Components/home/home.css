@@ -1,4 +1,16 @@
+.bg-image{
+    background-image: url('./../../../public/assets/bg.jpg');
 
+    background-size: cover;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* No-repeat the background image */
+  background-repeat: no-repeat;
+
+  height: 100vh;
+}
 #text{
     margin-top: 25vh;
     margin-bottom: 36.8vh;

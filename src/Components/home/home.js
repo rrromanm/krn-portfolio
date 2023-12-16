@@ -43,8 +43,8 @@ function Home() {
   );
 
   return (
-    <div className="container">
-      <div className="row">
+    <div className='bg-image'>
+      <div className="row ps-5 ms-5">
         <div className="col-md-6" id="text">
           <h3 className="mont-light fs-1 fs-md-5" id="hi">
             Hi,
@@ -67,6 +67,7 @@ function Home() {
             {descriptionText}
           </h5>
 
+
           <div>
             <button type="button" className="btn border-dark me-2">
               <a
@@ -87,7 +88,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 
