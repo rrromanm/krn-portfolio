@@ -2,11 +2,10 @@ footer {
   background-color: #111;
 }
 
-.footerNav a{
-    opacity: 0.7;
+.footerNav a {
+  opacity: 0.7;
 }
 
-.footerNav a:hover{
-    opacity: 1;
+.footerNav a:hover {
+  opacity: 1;
 }
-

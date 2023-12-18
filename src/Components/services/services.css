@@ -1,5 +1,5 @@
 .box {
-    width: 40vh;
-    height: 40vh;
-    border: 0.1rem solid black; /* Corrected order and added 'solid' */
+  width: 40vh;
+  height: 40vh;
+  border: 0.1rem solid black; /* Corrected order and added 'solid' */
 }

@@ -1,35 +1,36 @@
-.contact{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgb(179, 59, 114, 0.75)), url('/public/assets/contact-bg.jpeg');
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; /* Resize the background image to cover the entire container */
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(179, 59, 114, 0.75)),
+    url("/public/assets/contact-bg.jpeg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .form-control {
-    position: relative;
-    background-color: transparent; /* Set the background color to transparent */
+  position: relative;
+  background-color: transparent; /* Set the background color to transparent */
 }
 
-.form-control:focus{
-    border-color: white;
-    box-shadow: none;
-    background-color: transparent !important; /* Try adding !important */
+.form-control:focus {
+  border-color: white;
+  box-shadow: none;
+  background-color: transparent !important; /* Try adding !important */
 }
 
 .form-control::placeholder {
-    color: rgb(255,255, 255, 0.7);
+  color: rgb(255, 255, 255, 0.7);
 }
 
-.icon{
-    position: absolute;
-    margin-top: 1.6vh;
-    margin-left: 1.5vh;
+.icon {
+  position: absolute;
+  margin-top: 1.6vh;
+  margin-left: 1.5vh;
 }
 
-.input-field{
-    width: 100%;
-    padding: 12px 40px;
-    margin: 8px 0;
-    box-sizing: border-box;
+.input-field {
+  width: 100%;
+  padding: 12px 40px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }

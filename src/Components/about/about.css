@@ -1,88 +1,87 @@
-
 /* RESPONSIVENESS */
 
 /* WIDE SCREEN */
 
-.wide-screen h1{
-    font-size: 7vh;
+.wide-screen h1 {
+  font-size: 7vh;
 }
 
-.wide-screen p{
-    font-size: 2vh;
+.wide-screen p {
+  font-size: 2vh;
 }
 
-.wide-screen img{
-    max-width: 50vh;
+.wide-screen img {
+  max-width: 50vh;
 }
 /* LAPTOP L SCREEN */
 
-.laptopL-screen h1{
-    font-size: 4vh;
+.laptopL-screen h1 {
+  font-size: 4vh;
 }
 
-.laptopL-screen p{
-    font-size: 1.5vh;
+.laptopL-screen p {
+  font-size: 1.5vh;
 }
 
-.laptopL-screen img{
-    max-width: 50vh;
+.laptopL-screen img {
+  max-width: 50vh;
 }
 
 /* LAPTOP */
 
-.laptop-screen h1{
-    font-size: 3vh;
+.laptop-screen h1 {
+  font-size: 3vh;
 }
 
-.laptop-screen p{
-    font-size: 1.2vh;
+.laptop-screen p {
+  font-size: 1.2vh;
 }
 
-.laptop-screen img{
-    max-width: 40vh;
+.laptop-screen img {
+  max-width: 40vh;
 }
 
 /* TABLET */
 
-.tablet-screen h1{
-    margin-top: 1.5vh;
-    font-size: 3vh;
+.tablet-screen h1 {
+  margin-top: 1.5vh;
+  font-size: 3vh;
 }
 
-.tablet-screen p{
-    font-size: 2vh;
+.tablet-screen p {
+  font-size: 2vh;
 }
 
-.tablet-screen img{
-    max-width: 60vh;
+.tablet-screen img {
+  max-width: 60vh;
 }
 
 /* SMALLER TABLET */
 
-.smaller-tablet-screen h1{
-    margin-top: 1.5vh;
-    font-size: 3vh;
+.smaller-tablet-screen h1 {
+  margin-top: 1.5vh;
+  font-size: 3vh;
 }
 
-.smaller-tablet-screen p{
-    font-size: 1.8vh;
+.smaller-tablet-screen p {
+  font-size: 1.8vh;
 }
 
-.smaller-tablet-screen img{
-    max-width: 40vh;
+.smaller-tablet-screen img {
+  max-width: 40vh;
 }
 
 /* MOBILE M */
 
-.mobileM-screen h1{
-    margin-top: 1.5vh;
-    font-size: 2.5vh;
+.mobileM-screen h1 {
+  margin-top: 1.5vh;
+  font-size: 2.5vh;
 }
 
-.mobileM-screen p{
-    font-size: 1.5vh;
+.mobileM-screen p {
+  font-size: 1.5vh;
 }
 
-.mobileM-screen img{
-    max-width: 30vh;
+.mobileM-screen img {
+  max-width: 30vh;
 }

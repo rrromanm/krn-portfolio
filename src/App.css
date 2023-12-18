@@ -37,21 +37,20 @@
   }
 }
 
-@font-face{
+@font-face {
   font-family: montserrat-light;
   src: url(../public/fonts/Montserrat-Light.ttf);
 }
 
-.mont-light{
+.mont-light {
   font-family: montserrat-light;
 }
 
-@font-face{
+@font-face {
   font-family: montserrat-medium;
   src: url(../public/fonts/Montserrat-Medium.ttf);
 }
 
-.mont-medium{
+.mont-medium {
   font-family: montserrat-medium;
 }
-
