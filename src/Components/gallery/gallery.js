@@ -2,68 +2,52 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div className="mt-5 bg-secondary bg-gradient" id="gallery">
-      <div className="container-fluid py-5">
-        <h1>GALLERY</h1>
-        <div className="row ms-5 me-5">
-          <div className="col-md-4">
-            <img
-              src={process.env.PUBLIC_URL + "/assets/bg.jpg"}
-              alt="KRN"
-              className="img-fluid"
-              style={{ maxWidth: "50vh" }} // Adjust the max width as needed
-            ></img>
-            <h1>Portrait</h1>
-          </div>
-          <div className="col-md-4">
-            <img
-              src={process.env.PUBLIC_URL + "/assets/bg.jpg"}
-              alt="KRN"
-              className="img-fluid"
-              style={{ maxWidth: "50vh" }} // Adjust the max width as needed
-            ></img>
-            <h1>Family photo</h1>
-          </div>
-          <div className="col-md-4">
-            <img
-              src={process.env.PUBLIC_URL + "/assets/bg.jpg"}
-              alt="KRN"
-              className="img-fluid"
-              style={{ maxWidth: "50vh" }} // Adjust the max width as needed
-            ></img>
-            <h1>Landscape and cityscape</h1>
-          </div>
-        </div>
-        <div className="row ms-5 me-5 mt-5">
-          <div className="col-md-4">
-            <img
-              src={process.env.PUBLIC_URL + "/assets/bg.jpg"}
-              alt="KRN"
-              className="img-fluid"
-              style={{ maxWidth: "50vh" }} // Adjust the max width as needed
-            ></img>
-            <h1>Street photography</h1>
-          </div>
-          <div className="col-md-4">
-            <img
-              src={process.env.PUBLIC_URL + "/assets/bg.jpg"}
-              alt="KRN"
-              className="img-fluid"
-              style={{ maxWidth: "50vh" }} // Adjust the max width as needed
-            ></img>
-            <h1>Black and white photography</h1>
-          </div>
-          <div className="col-md-4">
-            <img
-              src={process.env.PUBLIC_URL + "/assets/bg.jpg"}
-              alt="KRN"
-              className="img-fluid"
-              style={{ maxWidth: "50vh" }} // Adjust the max width as needed
-            ></img>
-            <h1>Product photography</h1>
-          </div>
-        </div>
-      </div>
+    <div className="container container-fluid">
+      <h1 className="fw-bold">Photo <span className="fw-normal">Gallery</span></h1>
+      <hr></hr>
+      <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src={process.env.PUBLIC_URL + "/assets/black-and-white.jpeg"}
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+
+      <img
+        src={process.env.PUBLIC_URL + "/assets/animals.jpeg"}
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src={process.env.PUBLIC_URL + "/assets/city-2.jpeg"}
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds"
+      />
+
+      <img
+        src={process.env.PUBLIC_URL + "/assets/landscape-3.jpeg"}
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src={process.env.PUBLIC_URL + "/assets/portrait-2.jpeg"}
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Waves at Sea"
+      />
+
+      <img
+        src={process.env.PUBLIC_URL + "/assets/cars-2.jpeg"}
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park"
+      />
+  </div>
+</div>
     </div>
   );
 };
