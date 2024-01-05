@@ -3,3 +3,7 @@
   height: 40vh;
   border: 0.1rem solid black; /* Corrected order and added 'solid' */
 }
+
+#services{
+  padding: 5vh 15vh 5vh 15vh;
+}

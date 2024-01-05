@@ -1,8 +1,9 @@
 import React from "react";
+import './gallery.css';
 
 const Gallery = () => {
   return (
-    <div className="container container-fluid">
+    <div id="gallery" className="container-fluid">
       <h1 className="fw-bold">Photo <span className="fw-normal">Gallery</span></h1>
       <hr></hr>
       <div class="row">

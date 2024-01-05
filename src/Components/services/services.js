@@ -5,10 +5,10 @@ import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
-    <div className="vh-100">
-      <div className="row py-5 ps-5">
+    <div id="services" className="container-fluid">
+      <div className="row">
         <div className="col-md-6">
-          <h1 className="text-start ms-5 ps-4">Services</h1>
+          <h1 className="text-start ms-4">Services</h1>
 
           <div className="row d-flex justify-content-center">
             <div className="box col-md-4 text-start p-3">
@@ -75,10 +75,10 @@ const Services = () => {
 
         <div className="col-md-6">
           <img
-            src={process.env.PUBLIC_URL + "/assets/paris.jpg"}
+            src={process.env.PUBLIC_URL + "/assets/karina1.jpeg"}
             alt="KRN"
             className="img-fluid shadow-lg"
-            style={{ maxWidth: "55vh" }} // Adjust the max width as needed
+            style={{ maxWidth: "70vh" }}
           />
         </div>
       </div>
