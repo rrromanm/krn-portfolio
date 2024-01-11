@@ -9,7 +9,7 @@ const Gallery = () => {
       <div class="row">
     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
       <img
-        src={process.env.PUBLIC_URL + "/assets/black-and-white.jpeg"}
+        src={process.env.PUBLIC_URL + "/assets/BandW/black-and-white.jpeg"}
         class="w-100 shadow-1-strong rounded mb-4"
         alt="Boat on Calm Water"
       />
