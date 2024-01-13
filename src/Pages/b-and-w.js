@@ -1,5 +1,5 @@
 import React from 'react';
-import BlackAndWhite from '../Components/b-and-w-gallery/black-and-white';
+import BlackAndWhite from '../Components/galeries/black-and-white';
 
 function Gallery1() {
   return (

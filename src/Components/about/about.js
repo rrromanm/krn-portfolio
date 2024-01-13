@@ -64,7 +64,7 @@ const About = () => {
               src={process.env.PUBLIC_URL + "/assets/karina.jpeg"}
               alt="KRN"
               className="img-fluid shadow-lg"
-              style={{ maxWidth: "100%", height: "auto" }}
+              style={{ maxWidth: "75%", height: "auto" }}
             />
           </div>
           <div className="col-md-6 text-start">
@@ -119,7 +119,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      //{" "}
     </div>
   );
 };

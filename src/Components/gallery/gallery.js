@@ -3,52 +3,47 @@ import './gallery.css';
 
 const Gallery = () => {
   return (
-    <div id="gallery" className="container-fluid">
+    <div id="gallery" className="container-fluid px-5 py-5">
       <h1 className="fw-bold">Photo <span className="fw-normal">Gallery</span></h1>
       <hr></hr>
-      <div class="row">
-    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-      <img
-        src={process.env.PUBLIC_URL + "/assets/BandW/black-and-white.jpeg"}
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Boat on Calm Water"
-      />
+      <div className="row">
+        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+            src={process.env.PUBLIC_URL + "/assets/BandW/black-and-white.jpeg"}
+            className="w-100 h-auto shadow-1-strong rounded mb-4"
+          />
 
-      <img
-        src={process.env.PUBLIC_URL + "/assets/animals.jpeg"}
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Wintry Mountain Landscape"
-      />
-    </div>
+          <img
+            src={process.env.PUBLIC_URL + "/assets/animals.jpeg"}
+            className="w-100 h-auto shadow-1-strong rounded mb-4"
+          />
+        </div>
 
-    <div class="col-lg-4 mb-4 mb-lg-0">
-      <img
-        src={process.env.PUBLIC_URL + "/assets/city-2.jpeg"}
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Mountains in the Clouds"
-      />
+        <div className="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src={process.env.PUBLIC_URL + "/assets/city-2.jpeg"}
+            className="w-100 h-auto shadow-1-strong rounded mb-4"
+          />
 
-      <img
-        src={process.env.PUBLIC_URL + "/assets/landscape-3.jpeg"}
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Boat on Calm Water"
-      />
-    </div>
+          <img
+            src={process.env.PUBLIC_URL + "/assets/landscape-3.jpeg"}
+            className="w-100 h-auto shadow-1-strong rounded mb-4"
+          />
+        </div>
 
-    <div class="col-lg-4 mb-4 mb-lg-0">
-      <img
-        src={process.env.PUBLIC_URL + "/assets/portrait-2.jpeg"}
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Waves at Sea"
-      />
+        <div className="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src={process.env.PUBLIC_URL + "/assets/portrait-2.jpeg"}
+            className="w-100 h-auto shadow-1-strong rounded mb-4"
+          />
 
-      <img
-        src={process.env.PUBLIC_URL + "/assets/cars-2.jpeg"}
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Yosemite National Park"
-      />
-  </div>
-</div>
+          <img
+            src={process.env.PUBLIC_URL + "/assets/cars-2.jpeg"}
+            className="w-100 h-auto shadow-1-strong rounded mb-4"
+          />
+        </div>
+      </div>
+      <hr></hr>
     </div>
   );
 };
