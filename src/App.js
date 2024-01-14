@@ -3,6 +3,7 @@ import HomePage from "./Pages/homepage";
 import Gallery1 from "./Pages/b-and-w";
 import Gallery2 from "./Pages/cars";
 import Gallery3 from "./Pages/animals";
+import Gallery4 from "./Pages/landscape";
 // import Navbar from "./Components/navbar/navbar";
 // import Footer from "./Components/footer/footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/b-and-w" element={<Gallery1 />}/>
           <Route path="/cars" element={<Gallery2 />}/>
           <Route path="/animals" element={<Gallery3 />}/>
+          <Route path="/landscape" element={<Gallery4 />}/>
         </Routes>
       </div>
       

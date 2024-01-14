@@ -1,16 +1,16 @@
 import React from 'react';
 
-const BlackAndWhite = () => {
+const Landscape = () => {
   const images = [
-    [1, 6, 11, 15],
-    [2, 7, 12],
-    [3, 8, 13],
-    [4, 9, 14],
+    [1, 6],
+    [2, 7],
+    [3, 8],
+    [4],
   ];
 
   return (
     <div className="container-fluid">
-      <div className="row"> 
+        <div className="row"> 
             <div className="col-md-2">
                <img
                 src={process.env.PUBLIC_URL + `/assets/logo-black.png`}
@@ -21,16 +21,17 @@ const BlackAndWhite = () => {
             </div>
 
             <div className="col-md-10">
-                <h1 className='pt-5'>Black and White Photography</h1>
+                <h1 className='pt-5'>Landscape Photography</h1>
             </div>
         </div>
+        
     <div className="row g-2 p-4">
       {images.map((imageGroup, index) => (
         <div className="col-md-3 col-sm-4 col-12" key={index}>
           {imageGroup.map((imageNumber) => (
             <div key={imageNumber} className="mb-2">
               <img
-                src={process.env.PUBLIC_URL + `/assets/BandW/${imageNumber}.jpeg`}
+                src={process.env.PUBLIC_URL + `/assets/landscape/${imageNumber}.jpeg`}
                 className="w-100 shadow-1-strong rounded"
                 alt={`${imageNumber}`}
               />
@@ -44,4 +45,4 @@ const BlackAndWhite = () => {
   );
 };
 
-export default BlackAndWhite;
+export default Landscape;

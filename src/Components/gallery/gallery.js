@@ -11,11 +11,13 @@ const Gallery = () => {
           <img
             src={process.env.PUBLIC_URL + "/assets/BandW/black-and-white.jpeg"}
             className="w-100 h-auto shadow-1-strong rounded mb-4"
+            alt=""
           />
 
           <img
             src={process.env.PUBLIC_URL + "/assets/animals.jpeg"}
             className="w-100 h-auto shadow-1-strong rounded mb-4"
+            alt=""
           />
         </div>
 
@@ -23,11 +25,13 @@ const Gallery = () => {
           <img
             src={process.env.PUBLIC_URL + "/assets/city-2.jpeg"}
             className="w-100 h-auto shadow-1-strong rounded mb-4"
+            alt=""
           />
 
           <img
-            src={process.env.PUBLIC_URL + "/assets/landscape-3.jpeg"}
+            src={process.env.PUBLIC_URL + "/assets/landscape/7.jpeg"}
             className="w-100 h-auto shadow-1-strong rounded mb-4"
+            alt=""
           />
         </div>
 
@@ -35,11 +39,13 @@ const Gallery = () => {
           <img
             src={process.env.PUBLIC_URL + "/assets/portrait-2.jpeg"}
             className="w-100 h-auto shadow-1-strong rounded mb-4"
+            alt=""
           />
 
           <img
             src={process.env.PUBLIC_URL + "/assets/cars-2.jpeg"}
             className="w-100 h-auto shadow-1-strong rounded mb-4"
+            alt=""
           />
         </div>
       </div>
