@@ -13,7 +13,7 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<HomePage />}/>
-          <Route path="/b-and-w" element={<Gallery1 />}/>
+          <Route path="/black-and-white" element={<Gallery1 />}/>
           <Route path="/cars" element={<Gallery2 />}/>
           <Route path="/animals" element={<Gallery3 />}/>
           <Route path="/landscape" element={<Gallery4 />}/>
