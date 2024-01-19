@@ -23,7 +23,7 @@ const Footer = () => {
               icon={faFacebookF}
               fixedWidth
               size="2x"
-              className="text-white"
+              className="facebook social-icon"
             />
           </a>
           <a
@@ -36,7 +36,7 @@ const Footer = () => {
               icon={faInstagram}
               fixedWidth
               size="2x"
-              className="text-white"
+              className="instagram social-icon"
             />
           </a>
           <a
@@ -49,7 +49,7 @@ const Footer = () => {
               icon={faWhatsapp}
               fixedWidth
               size="2x"
-              className="text-white"
+              className="whatsapp social-icon"
             />
           </a>
           <a
@@ -62,11 +62,11 @@ const Footer = () => {
               icon={faTelegram}
               fixedWidth
               size="2x"
-              className="text-white"
+              className="telegram social-icon"
             />
           </a>
           <a
-            href="https://www.telegram.com/"
+            href="https://www.tiktok.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="ms-3"
@@ -75,7 +75,7 @@ const Footer = () => {
               icon={faTiktok}
               fixedWidth
               size="2x"
-              className="text-white"
+              className="tiktok social-icon"
             />
           </a>
         </div>

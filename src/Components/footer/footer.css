@@ -9,3 +9,33 @@ footer {
 .footerNav a:hover {
   opacity: 1;
 }
+
+.social-icon{
+  color:white;
+  transition: color 0.8s, transform 0.8s;
+}
+
+.facebook:hover {
+  color: #4267B2;
+  transform: translateY(-8px);
+}
+
+.instagram:hover {
+  color: #833AB4;
+  transform: translateY(-8px);
+}
+
+.whatsapp:hover {
+  color: #25d366;
+  transform: translateY(-8px);
+}
+
+.telegram:hover {
+  color: #2AABEE;
+  transform: translateY(-8px);
+}
+
+.tiktok:hover{
+  color:  #ff0050 ;
+  transform: translateY(-8px);
+}
