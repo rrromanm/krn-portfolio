@@ -27,7 +27,7 @@ const Gallery = () => {
               alt=""
             />
             <div className="overlay">
-              <button className="gallery-btn" onClick={() => handleRedirect("/black-and-white")}>
+              <button className="gallery-btn text-uppercase" onClick={() => handleRedirect("/black-and-white")}>
                 View Black and White Gallery
               </button>
             </div>
@@ -40,7 +40,7 @@ const Gallery = () => {
               alt=""
             />
             <div className="overlay">
-              <button className="gallery-btn" onClick={() => handleRedirect("/animals")}>
+              <button className="gallery-btn text-uppercase" onClick={() => handleRedirect("/animals")}>
                 View animal Gallery
               </button>
             </div>
@@ -55,7 +55,7 @@ const Gallery = () => {
               alt=""
             />
             <div className="overlay">
-              <button className="gallery-btn" onClick={() => handleRedirect("/")}>
+              <button className="gallery-btn text-uppercase" onClick={() => handleRedirect("/")}>
                 View city Gallery
               </button>
             </div>
@@ -68,7 +68,7 @@ const Gallery = () => {
               alt=""
             />
             <div className="overlay">
-              <button className="gallery-btn" onClick={() => handleRedirect("/landscape")}>
+              <button className="gallery-btn text-uppercase" onClick={() => handleRedirect("/landscape")}>
                 View landscape Gallery
               </button>
             </div>
@@ -83,7 +83,7 @@ const Gallery = () => {
               alt=""
             />
             <div className="overlay">
-              <button className="gallery-btn" onClick={() => handleRedirect("/")}>
+              <button className="gallery-btn text-uppercase" onClick={() => handleRedirect("/")}>
                 View portraits Gallery
               </button>
             </div>
@@ -96,7 +96,7 @@ const Gallery = () => {
               alt=""
             />
             <div className="overlay">
-              <button className="gallery-btn" onClick={() => handleRedirect("/cars")}>
+              <button className="gallery-btn text-uppercase" onClick={() => handleRedirect("/cars")}>
                 View car Gallery
               </button>
             </div>

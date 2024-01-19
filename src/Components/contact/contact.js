@@ -23,7 +23,7 @@ const Contact = () => {
             <input
               type="text"
               className="input-field form-control form-control-lg text-white"
-              id="floatingName"
+              id="floatingName1"
               placeholder="Name"
               required
             />
@@ -37,7 +37,7 @@ const Contact = () => {
             <input
               type="email"
               className="input-field form-control form-control-lg text-white"
-              id="floatingName"
+              id="floatingName2"
               placeholder="Email"
               required
             />
@@ -51,7 +51,7 @@ const Contact = () => {
             <input
               type="tel"
               className="input-field form-control form-control-lg text-white"
-              id="floatingName"
+              id="floatingName3"
               placeholder="Phone"
               required
             />
