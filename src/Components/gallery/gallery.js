@@ -47,7 +47,7 @@ const Gallery = () => {
           </div>
         </div>
 
-        <div className="col-lg-4 mb-4 mb-lg-0">
+        <div className="col-lg-4 col-md-12">
           <div className="image-container mb-2 mb-md-4">
             <img
               src={process.env.PUBLIC_URL + "/assets/city-2.jpeg"}

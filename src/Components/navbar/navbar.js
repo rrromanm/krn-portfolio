@@ -58,6 +58,11 @@ function Navbar() {
               Gallery
             </a>
           </li>
+          <li className="nav-item me-3">
+            <a className="nav-link fs-5 fs-md-4 text-white" href="#projects">
+              Services
+            </a>
+          </li>
           <li className="nav-item">
             <a className="nav-link fs-5 fs-md-4 text-white" href="#contact">
               Contact

@@ -20,11 +20,10 @@
 .gallery-btn {
     border: 1px solid #ecf0f1;
     background: none;
-    padding: 10px 20px;
+    padding: 2vh 4vh;
     font-size: 20px;
     cursor: pointer;
     color: #ecf0f1;
-    background-size: 200% 100%; /* Set the initial size for transition */
     transition: 0.8s;
 }
 
