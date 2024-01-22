@@ -4,6 +4,7 @@ import Gallery1 from "./Pages/b-and-w";
 import Gallery2 from "./Pages/cars";
 import Gallery3 from "./Pages/animals";
 import Gallery4 from "./Pages/landscape";
+import Gallery5 from "./Pages/city";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/cars" element={<Gallery2 />}/>
           <Route path="/animals" element={<Gallery3 />}/>
           <Route path="/landscape" element={<Gallery4 />}/>
+          <Route path="/city" element={<Gallery5 />}/>
         </Routes>
       </div>
       

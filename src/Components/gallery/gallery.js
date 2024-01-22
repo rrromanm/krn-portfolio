@@ -35,7 +35,7 @@ const Gallery = () => {
 
           <div className="image-container mb-2 mb-md-4">
             <img
-              src={process.env.PUBLIC_URL + "/assets/animals.jpeg"}
+              src={process.env.PUBLIC_URL + "/assets/animals/animals.jpeg"}
               className="w-100 h-auto shadow-1-strong rounded"
               alt=""
             />
@@ -50,12 +50,12 @@ const Gallery = () => {
         <div className="col-lg-4 col-md-12">
           <div className="image-container mb-2 mb-md-4">
             <img
-              src={process.env.PUBLIC_URL + "/assets/city-2.jpeg"}
+              src={process.env.PUBLIC_URL + "/assets/street/6.jpeg"}
               className="w-100 h-auto shadow-1-strong rounded"
               alt=""
             />
             <div className="overlay">
-              <button className="gallery-btn text-uppercase" onClick={() => handleRedirect("/")}>
+              <button className="gallery-btn text-uppercase" onClick={() => handleRedirect("/city")}>
                 View city Gallery
               </button>
             </div>
@@ -91,7 +91,7 @@ const Gallery = () => {
 
           <div className="image-container mb-2 mb-md-4">
             <img
-              src={process.env.PUBLIC_URL + "/assets/cars-2.jpeg"}
+              src={process.env.PUBLIC_URL + "/assets/cars/13.jpeg"}
               className="w-100 h-auto shadow-1-strong rounded"
               alt=""
             />
