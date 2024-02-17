@@ -13,6 +13,8 @@ const Cars = () => {
       <div className="row"> 
             <div className="col-md-2">
                <img
+                loading='lazy'
+                role='presentation'
                 src={process.env.PUBLIC_URL + `/assets/logo-black.png`}
                 style={{ width: '100%' }}
                 className="shadow-1-strong rounded"
@@ -30,6 +32,8 @@ const Cars = () => {
           {imageGroup.map((imageNumber) => (
             <div key={imageNumber} className="mb-2">
               <img
+                loading='lazy'
+                role='presentation'
                 src={process.env.PUBLIC_URL + `/assets/cars/${imageNumber}.jpeg`}
                 className="w-100 shadow-1-strong rounded"
                 alt={`${imageNumber}`}
