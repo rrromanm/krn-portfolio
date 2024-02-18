@@ -83,22 +83,22 @@ const Footer = () => {
         <div className="footerNav">
           <ul className="text-white fs-4 p-3 d-flex justify-content-center list-unstyled">
             <li>
-              <a className="m-2 text-decoration-none text-white" href="">
+              <a className="m-2 text-decoration-none text-white" href="#">
                 Home
               </a>
             </li>
             <li>
-              <a className="m-2 text-decoration-none text-white" href="">
+              <a className="m-2 text-decoration-none text-white" href="#">
                 About
               </a>
             </li>
             <li>
-              <a className="m-2 text-decoration-none text-white" href="">
+              <a className="m-2 text-decoration-none text-white" href="#">
                 Gallery
               </a>
             </li>
             <li>
-              <a className="m-2 text-decoration-none text-white" href="">
+              <a className="m-2 text-decoration-none text-white" href="#">
                 Contact
               </a>
             </li>

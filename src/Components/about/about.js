@@ -2,10 +2,10 @@ import React from "react";
 const About = () => {
   
   return (
-    <div
-      className="py-5 px-5"
+    <div 
+      className="py-5 px-5" 
     >
-      <div id="about" className="container-fluid">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-6">
             <img
